@@ -165,11 +165,11 @@ To run a specific model, edit `config.yaml` and set `model_to_run` to one of: `R
 If you use this code or the results from this study, please cite:
 
 ```bibtex
-@phdthesis{medouani2025arabic,
+@phdthesis{medouani2023arabic,
   author  = {Mohamed Medouani},
   title   = {Morphological Modeling of Modern Standard Arabic (MSA) and Dialectal Arabic (DA) Using Natural Language Processing (NLP) with Deep Learning},
   school  = {Capitol Technology University},
-  year    = {2025},
+  year    = {2023},
   type    = {Doctor of Science Dissertation}
 }
 ```
