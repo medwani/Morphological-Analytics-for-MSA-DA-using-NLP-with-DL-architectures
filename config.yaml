@@ -1,0 +1,36 @@
+
+# Configuration for the benchmark script
+
+model_to_run: AMD  # Specify which model to run: RB, SB, CL_BiLSTM, WC_Hybrid, Trans, DSM, UMD, AMD
+
+datasets:
+  msa: ["PATB", "Gigaword", "SANAD"]
+  da: ["MADAR", "EgyptianTreebank", "LAC", "GAC", "MAD"]
+
+model_params:
+  # For Transformer-based models
+  transformer_model_name: "aubmindlab/bert-base-arabertv2"
+  num_labels: 15 # Example, should match the number of morphological tags
+
+  # For CL_BiLSTM
+  vocab_size: 30000
+  embedding_dim: 128
+  hidden_dim: 512
+  n_layers: 2
+
+  # For AMD (LoRA)
+  lora_rank: 8
+  lora_alpha: 32
+  lora_dropout: 0.1
+
+training_params:
+  epochs: 10
+  batch_size: 16
+  learning_rate: 2e-5
+  optimizer: "AdamW"
+  weight_decay: 0.01
+  early_stopping_patience: 3
+
+evaluation_params:
+  metrics: ["WLA", "FLA", "LA", "SA", "ARA", "DTG", "DRS", "CSP"]
+  output_dir: "./results"
