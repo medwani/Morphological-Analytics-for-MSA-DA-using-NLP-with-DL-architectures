@@ -1,7 +1,7 @@
 # Morphological Modeling of Modern Standard Arabic (MSA) and Dialectal Arabic (DA) Using NLP with Deep Learning
 
 **Author:** Mohamed Medouani  
-**Year:** 2025
+**Year:** 2023
 
 ---
 
