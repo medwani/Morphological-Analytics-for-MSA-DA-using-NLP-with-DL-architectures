@@ -1,8 +1,6 @@
 # Morphological Modeling of Modern Standard Arabic (MSA) and Dialectal Arabic (DA) Using NLP with Deep Learning
 
 **Author:** Mohamed Medouani  
-**Institution:** Capitol Technology University  
-**Degree:** Doctor of Science in Artificial Intelligence  
 **Year:** 2025
 
 ---
